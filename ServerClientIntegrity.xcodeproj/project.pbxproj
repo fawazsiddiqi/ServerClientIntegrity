@@ -28,6 +28,7 @@
 		F17E86AF22960AE90068550A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F17E86B722960B180068550A /* sha256.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha256.cpp; sourceTree = "<group>"; };
 		F17E86B822960B180068550A /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		F17E86BB22960C790068550A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				F17E86AF22960AE90068550A /* main.cpp */,
 				F17E86B722960B180068550A /* sha256.cpp */,
 				F17E86B822960B180068550A /* sha256.h */,
+				F17E86BB22960C790068550A /* README.md */,
 			);
 			path = ServerClientIntegrity;
 			sourceTree = "<group>";
