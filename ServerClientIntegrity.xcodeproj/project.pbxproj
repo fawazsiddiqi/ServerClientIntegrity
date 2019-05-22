@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F17E86B022960AE90068550A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F17E86AF22960AE90068550A /* main.cpp */; };
+		F17E86BA22960B180068550A /* sha256.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F17E86B722960B180068550A /* sha256.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F17E86AC22960AE80068550A /* ServerClientIntegrity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ServerClientIntegrity; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17E86AF22960AE90068550A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F17E86B722960B180068550A /* sha256.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha256.cpp; sourceTree = "<group>"; };
+		F17E86B822960B180068550A /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F17E86AF22960AE90068550A /* main.cpp */,
+				F17E86B722960B180068550A /* sha256.cpp */,
+				F17E86B822960B180068550A /* sha256.h */,
 			);
 			path = ServerClientIntegrity;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17E86BA22960B180068550A /* sha256.cpp in Sources */,
 				F17E86B022960AE90068550A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
