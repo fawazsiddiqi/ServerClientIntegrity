@@ -4,6 +4,8 @@ A demonstration of SHA256 on a Server and Client to compare hashes and check the
 # SHA256
 SHA256 is one of the successors to hash functions SHA1, SHA is known as a cryptographic hash also known as a ‘digest’ and it is a signature for a text or data file to verify its authenticity with the SHA256 hash generated on the server side and on the client side. 
 
+![alt text](https://www.danielefavi.com/wp-content/uploads/2017/12/blockchain_to_calculate_2.png)
+
 It is not an encryption but it is a hash so it is a one-way function, and in our scenario, we are transmitting a video file (download) from a server and the hash is generated within the server and as the client is downloading it, the hash generated on the client side is compared to the server side, and thus authenticity and integrity of the file is assured as the hashes from the server and the client are same when compared to each other.
 
 The server starts from the last block of the file and its cash and thus the computed hash will be attached to the next block and the combination will be hashed, this process keeps repeating as it reaches the final block which is considered to be the first block of the file, the hash of that block plus the previous block results in the creation of H0
